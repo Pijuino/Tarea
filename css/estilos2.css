@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.sidebar {
+    background-color: #76d7ea;
+    width: 25%;
+    padding: 10px;
+}
+
+.main-content {
+    background-color: #accac5;
+    width: 75%;
+    padding: 10px;
+    margin-left: 2px;
+}
